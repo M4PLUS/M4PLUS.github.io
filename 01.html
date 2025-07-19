@@ -86,813 +86,787 @@
 <div class="gpkZOZr4" style="background: rgba(255, 255, 255, 0);">
     <div class="Jlm-mXPE" style="margin: 0px; padding: 8px 16px 4px;">
         <div data-block="66ab32e876aaf800114c7c5f" data-block-kind="Link" id="block-66ab32e876aaf800114c7c5f">
-          
-                           
-                            <path
-                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                            </path>
-                        </svg></div>
-                    <div class="_61lUlncS">
-              
-          
 
 
-                <meta charset="UTF-8">
-                <title>รายการถอนเงินล่าสุด</title>
-                <style>
-                    body {
-                        margin: 0;
-                        font-family: 'Arial', sans-serif;
-                        background-color: #000000;
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+            </path>
+            </svg>
+        </div>
+        <div class="_61lUlncS">
+
+
+
+
+            <meta charset="UTF-8">
+            <title>รายการถอนเงินล่าสุด</title>
+            <style>
+                body {
+                    margin: 0;
+                    font-family: 'Arial', sans-serif;
+                    background-color: #000000;
+                }
+
+                .container {
+                    width: 400px;
+                    margin: 20px auto;
+                }
+
+                .header {
+                    background: linear-gradient(to right, #0071ce, #003c9d);
+                    color: white;
+                    text-align: center;
+                    padding: 15px;
+                    border-radius: 10px 10px 0 0;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+                .scroll-area {
+                    height: 400px;
+                    overflow: hidden;
+                    background-color: #111;
+                    border-radius: 0 0 10px 10px;
+                    position: relative;
+                }
+
+                .transactions {
+                    display: flex;
+                    flex-direction: column;
+                    animation: scroll-up 20s linear infinite;
+                }
+
+                .transaction {
+                    display: flex;
+                    align-items: center;
+                    background-color: #2c2c2c;
+                    color: white;
+                    margin: 5px 10px;
+                    border-radius: 10px;
+                    padding: 10px;
+                }
+
+                .transaction img {
+                    width: 50px;
+                    height: 50px;
+                    margin-right: 10px;
+                    border-radius: 50%;
+                    background-color: white;
+                }
+
+                .transaction .text {
+                    font-size: 14px;
+                }
+
+                .transaction .text span {
+                    color: #00bfff;
+                }
+
+                @keyframes scroll-up {
+                    0% {
+                        transform: translateY(0);
                     }
 
-                    .container {
-                        width: 400px;
-                        margin: 20px auto;
+                    100% {
+                        transform: translateY(-50%);
                     }
-
-                    .header {
-                        background: linear-gradient(to right, #0071ce, #003c9d);
-                        color: white;
-                        text-align: center;
-                        padding: 15px;
-                        border-radius: 10px 10px 0 0;
-                        font-size: 20px;
-                        font-weight: bold;
-                    }
-
-                    .scroll-area {
-                        height: 400px;
-                        overflow: hidden;
-                        background-color: #111;
-                        border-radius: 0 0 10px 10px;
-                        position: relative;
-                    }
-
-                    .transactions {
-                        display: flex;
-                        flex-direction: column;
-                        animation: scroll-up 20s linear infinite;
-                    }
-
-                    .transaction {
-                        display: flex;
-                        align-items: center;
-                        background-color: #2c2c2c;
-                        color: white;
-                        margin: 5px 10px;
-                        border-radius: 10px;
-                        padding: 10px;
-                    }
-
-                    .transaction img {
-                        width: 50px;
-                        height: 50px;
-                        margin-right: 10px;
-                        border-radius: 50%;
-                        background-color: white;
-                    }
-
-                    .transaction .text {
-                        font-size: 14px;
-                    }
-
-                    .transaction .text span {
-                        color: #00bfff;
-                    }
-
-                    @keyframes scroll-up {
-                        0% {
-                            transform: translateY(0);
-                        }
-
-                        100% {
-                            transform: translateY(-50%);
-                        }
-                    }
-                </style>
+                }
+            </style>
 
 
 
-                <div class="container">
-                    <div class="header">รายงานการถอนเงินล่าสุด</div>
-                    <div class="scroll-area">
-                        <div id="transactions" class="transactions">
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88123xx วันที่: 18/7/2568 10:43:24<br>
-                                    ยอดถอน: <span>12,617.00</span> บาท
-                                </div>
+            <div class="container">
+                <div class="header">รายงานการถอนเงินล่าสุด</div>
+                <div class="scroll-area">
+                    <div id="transactions" class="transactions">
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88123xx วันที่: 18/7/2568 10:43:24<br>
+                                ยอดถอน: <span>12,617.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88195xx วันที่: 18/7/2568 10:57:49<br>
-                                    ยอดถอน: <span>15,823.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88195xx วันที่: 18/7/2568 10:57:49<br>
+                                ยอดถอน: <span>15,823.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://www.dpa.or.th/storage/uploads/bank/dpa_bank_ttb@2x.png"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88844xx วันที่: 18/7/2568 10:56:59<br>
-                                    ยอดถอน: <span>3,593.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://www.dpa.or.th/storage/uploads/bank/dpa_bank_ttb@2x.png" alt="bank-logo">
+                            <div class="text">
+                                ID: m88844xx วันที่: 18/7/2568 10:56:59<br>
+                                ยอดถอน: <span>3,593.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88816xx วันที่: 18/7/2568 10:52:27<br>
-                                    ยอดถอน: <span>4,876.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88816xx วันที่: 18/7/2568 10:52:27<br>
+                                ยอดถอน: <span>4,876.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88383xx วันที่: 18/7/2568 10:47:54<br>
-                                    ยอดถอน: <span>13,619.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88383xx วันที่: 18/7/2568 10:47:54<br>
+                                ยอดถอน: <span>13,619.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88397xx วันที่: 18/7/2568 10:50:08<br>
-                                    ยอดถอน: <span>14,904.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88397xx วันที่: 18/7/2568 10:50:08<br>
+                                ยอดถอน: <span>14,904.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://e7.pngegg.com/pngimages/591/354/png-clipart-krung-thai-bank-money-credit-kasikornbank-bank-blue-text-thumbnail.png"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88828xx วันที่: 18/7/2568 10:57:47<br>
-                                    ยอดถอน: <span>10,622.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://e7.pngegg.com/pngimages/591/354/png-clipart-krung-thai-bank-money-credit-kasikornbank-bank-blue-text-thumbnail.png"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88828xx วันที่: 18/7/2568 10:57:47<br>
+                                ยอดถอน: <span>10,622.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88565xx วันที่: 18/7/2568 10:46:40<br>
-                                    ยอดถอน: <span>15,353.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88565xx วันที่: 18/7/2568 10:46:40<br>
+                                ยอดถอน: <span>15,353.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88441xx วันที่: 18/7/2568 10:59:32<br>
-                                    ยอดถอน: <span>25,701.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88441xx วันที่: 18/7/2568 10:59:32<br>
+                                ยอดถอน: <span>25,701.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88368xx วันที่: 18/7/2568 10:56:27<br>
-                                    ยอดถอน: <span>8,469.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88368xx วันที่: 18/7/2568 10:56:27<br>
+                                ยอดถอน: <span>8,469.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88342xx วันที่: 18/7/2568 10:43:22<br>
-                                    ยอดถอน: <span>19,934.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88342xx วันที่: 18/7/2568 10:43:22<br>
+                                ยอดถอน: <span>19,934.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88707xx วันที่: 18/7/2568 10:53:38<br>
-                                    ยอดถอน: <span>10,310.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88707xx วันที่: 18/7/2568 10:53:38<br>
+                                ยอดถอน: <span>10,310.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://e7.pngegg.com/pngimages/591/354/png-clipart-krung-thai-bank-money-credit-kasikornbank-bank-blue-text-thumbnail.png"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88518xx วันที่: 18/7/2568 10:54:55<br>
-                                    ยอดถอน: <span>16,785.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://e7.pngegg.com/pngimages/591/354/png-clipart-krung-thai-bank-money-credit-kasikornbank-bank-blue-text-thumbnail.png"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88518xx วันที่: 18/7/2568 10:54:55<br>
+                                ยอดถอน: <span>16,785.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88940xx วันที่: 18/7/2568 10:45:58<br>
-                                    ยอดถอน: <span>9,125.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88940xx วันที่: 18/7/2568 10:45:58<br>
+                                ยอดถอน: <span>9,125.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://www.dpa.or.th/storage/uploads/bank/dpa_bank_ttb@2x.png"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88862xx วันที่: 18/7/2568 10:43:36<br>
-                                    ยอดถอน: <span>17,054.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://www.dpa.or.th/storage/uploads/bank/dpa_bank_ttb@2x.png" alt="bank-logo">
+                            <div class="text">
+                                ID: m88862xx วันที่: 18/7/2568 10:43:36<br>
+                                ยอดถอน: <span>17,054.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88123xx วันที่: 18/7/2568 10:43:24<br>
-                                    ยอดถอน: <span>12,617.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88123xx วันที่: 18/7/2568 10:43:24<br>
+                                ยอดถอน: <span>12,617.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88195xx วันที่: 18/7/2568 10:57:49<br>
-                                    ยอดถอน: <span>15,823.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88195xx วันที่: 18/7/2568 10:57:49<br>
+                                ยอดถอน: <span>15,823.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://www.dpa.or.th/storage/uploads/bank/dpa_bank_ttb@2x.png"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88844xx วันที่: 18/7/2568 10:56:59<br>
-                                    ยอดถอน: <span>3,593.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://www.dpa.or.th/storage/uploads/bank/dpa_bank_ttb@2x.png" alt="bank-logo">
+                            <div class="text">
+                                ID: m88844xx วันที่: 18/7/2568 10:56:59<br>
+                                ยอดถอน: <span>3,593.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88816xx วันที่: 18/7/2568 10:52:27<br>
-                                    ยอดถอน: <span>4,876.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88816xx วันที่: 18/7/2568 10:52:27<br>
+                                ยอดถอน: <span>4,876.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88383xx วันที่: 18/7/2568 10:47:54<br>
-                                    ยอดถอน: <span>7,619.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88383xx วันที่: 18/7/2568 10:47:54<br>
+                                ยอดถอน: <span>7,619.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88397xx วันที่: 18/7/2568 10:50:08<br>
-                                    ยอดถอน: <span>14,904.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88397xx วันที่: 18/7/2568 10:50:08<br>
+                                ยอดถอน: <span>14,904.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://e7.pngegg.com/pngimages/591/354/png-clipart-krung-thai-bank-money-credit-kasikornbank-bank-blue-text-thumbnail.png"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88828xx วันที่: 18/7/2568 10:57:47<br>
-                                    ยอดถอน: <span>95,622.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://e7.pngegg.com/pngimages/591/354/png-clipart-krung-thai-bank-money-credit-kasikornbank-bank-blue-text-thumbnail.png"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88828xx วันที่: 18/7/2568 10:57:47<br>
+                                ยอดถอน: <span>95,622.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88565xx วันที่: 18/7/2568 10:46:40<br>
-                                    ยอดถอน: <span>6,353.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88565xx วันที่: 18/7/2568 10:46:40<br>
+                                ยอดถอน: <span>6,353.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88441xx วันที่: 18/7/2568 10:59:32<br>
-                                    ยอดถอน: <span>701.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88441xx วันที่: 18/7/2568 10:59:32<br>
+                                ยอดถอน: <span>701.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88368xx วันที่: 18/7/2568 10:56:27<br>
-                                    ยอดถอน: <span>9,469.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88368xx วันที่: 18/7/2568 10:56:27<br>
+                                ยอดถอน: <span>9,469.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88342xx วันที่: 18/7/2568 10:43:22<br>
-                                    ยอดถอน: <span>2,934.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88342xx วันที่: 18/7/2568 10:43:22<br>
+                                ยอดถอน: <span>2,934.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88707xx วันที่: 18/7/2568 10:53:38<br>
-                                    ยอดถอน: <span>5,310.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88707xx วันที่: 18/7/2568 10:53:38<br>
+                                ยอดถอน: <span>5,310.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://e7.pngegg.com/pngimages/591/354/png-clipart-krung-thai-bank-money-credit-kasikornbank-bank-blue-text-thumbnail.png"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88518xx วันที่: 18/7/2568 10:54:55<br>
-                                    ยอดถอน: <span>160,785.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://e7.pngegg.com/pngimages/591/354/png-clipart-krung-thai-bank-money-credit-kasikornbank-bank-blue-text-thumbnail.png"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88518xx วันที่: 18/7/2568 10:54:55<br>
+                                ยอดถอน: <span>160,785.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88940xx วันที่: 18/7/2568 10:45:58<br>
-                                    ยอดถอน: <span>9,125.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&amp;s"
+                                alt="bank-logo">
+                            <div class="text">
+                                ID: m88940xx วันที่: 18/7/2568 10:45:58<br>
+                                ยอดถอน: <span>9,125.00</span> บาท
                             </div>
-                            <div class="transaction">
-                                <img src="https://www.dpa.or.th/storage/uploads/bank/dpa_bank_ttb@2x.png"
-                                    alt="bank-logo">
-                                <div class="text">
-                                    ID: m88862xx วันที่: 18/7/2568 10:43:36<br>
-                                    ยอดถอน: <span>17,054.00</span> บาท
-                                </div>
+                        </div>
+                        <div class="transaction">
+                            <img src="https://www.dpa.or.th/storage/uploads/bank/dpa_bank_ttb@2x.png" alt="bank-logo">
+                            <div class="text">
+                                ID: m88862xx วันที่: 18/7/2568 10:43:36<br>
+                                ยอดถอน: <span>17,054.00</span> บาท
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <script data-evaluated="true">
-                    const banks = [
-                        { name: "กรุงไทย", code: "ktb", logo: "https://e7.pngegg.com/pngimages/591/354/png-clipart-krung-thai-bank-money-credit-kasikornbank-bank-blue-text-thumbnail.png" },
-                        { name: "กสิกร", code: "kbank", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&s" },
-                        { name: "ttb", code: "ttb", logo: "https://www.dpa.or.th/storage/uploads/bank/dpa_bank_ttb@2x.png" },
-                        { name: "กรุงเทพ", code: "bbl", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&s" },
-                        { name: "ไทยพาณิชย์", code: "scb", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&s" },
-                    ];
+            <script data-evaluated="true">
+                const banks = [
+                    { name: "กรุงไทย", code: "ktb", logo: "https://e7.pngegg.com/pngimages/591/354/png-clipart-krung-thai-bank-money-credit-kasikornbank-bank-blue-text-thumbnail.png" },
+                    { name: "กสิกร", code: "kbank", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizp6p2S8auXlYDS3AdwJAcGOjhvQQikvObg&s" },
+                    { name: "ttb", code: "ttb", logo: "https://www.dpa.or.th/storage/uploads/bank/dpa_bank_ttb@2x.png" },
+                    { name: "กรุงเทพ", code: "bbl", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1NIpVseQFY-MV0W0CESRrZhVd9hFH696cA&s" },
+                    { name: "ไทยพาณิชย์", code: "scb", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KEvnRfO3T3ODuadD84GYfpv9WbDW1qKCPg&s" },
+                ];
 
-                    const transactions = [];
-                    const now = new Date();
+                const transactions = [];
+                const now = new Date();
 
-                    function getRandomInt(min, max) {
-                        return Math.floor(Math.random() * (max - min + 1)) + min;
-                    }
+                function getRandomInt(min, max) {
+                    return Math.floor(Math.random() * (max - min + 1)) + min;
+                }
 
-                    function formatTime(date) {
-                        return date.toLocaleDateString("th-TH") + " " + date.toLocaleTimeString("th-TH");
-                    }
+                function formatTime(date) {
+                    return date.toLocaleDateString("th-TH") + " " + date.toLocaleTimeString("th-TH");
+                }
 
-                    // สร้างรายการสุ่ม 15 รายการ
-                    for (let i = 0; i < 15; i++) {
-                        const bank = banks[getRandomInt(0, banks.length - 1)];
-                        const m88 = "m88" + getRandomInt(100, 999) + "xx";
-                        const amount = getRandomInt(999, 29999).toLocaleString();
-                        const time = new Date(now.getTime() - getRandomInt(0, 1080 * 1080));
-                        transactions.push({
-                            m88,
-                            amount,
-                            time: formatTime(time),
-                            logo: bank.logo
-                        });
-                    }
+                // สร้างรายการสุ่ม 15 รายการ
+                for (let i = 0; i < 15; i++) {
+                    const bank = banks[getRandomInt(0, banks.length - 1)];
+                    const m88 = "m88" + getRandomInt(100, 999) + "xx";
+                    const amount = getRandomInt(999, 29999).toLocaleString();
+                    const time = new Date(now.getTime() - getRandomInt(0, 1080 * 1080));
+                    transactions.push({
+                        m88,
+                        amount,
+                        time: formatTime(time),
+                        logo: bank.logo
+                    });
+                }
 
-                    // แสดงรายการ (วน 2 ชุดเพื่อให้เลื่อนต่อเนื่อง)
-                    const container = document.getElementById("transactions");
-                    for (let i = 0; i < 2; i++) {
-                        transactions.forEach(tx => {
-                            const div = document.createElement("div");
-                            div.className = "transaction";
-                            div.innerHTML = `
+                // แสดงรายการ (วน 2 ชุดเพื่อให้เลื่อนต่อเนื่อง)
+                const container = document.getElementById("transactions");
+                for (let i = 0; i < 2; i++) {
+                    transactions.forEach(tx => {
+                        const div = document.createElement("div");
+                        div.className = "transaction";
+                        div.innerHTML = `
         <img src="${tx.logo}" alt="bank-logo">
         <div class="text">
           ID: ${tx.m88} วันที่: ${tx.time}<br>
           ยอดถอน: <span>${tx.amount}.00</span> บาท
         </div>
       `;
-                            container.appendChild(div);
-                        });
-                    }
-                </script>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-8734bb3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8734bb3" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-378380c" data-id="378380c" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-901da86 elementor-widget elementor-widget-image" data-id="901da86" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-																<a href="https://lin.ee/w7G8SXM">
-							<img src="https://lis168.companyog.com/wp-content/uploads/2022/03/line_register-1.gif" title="" alt="" loading="lazy">								</a>
-															</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-<div class="aBzS+Vtx"><div class="n6+2FamY" style="background-color: transparent;"><img src="https://img2.pic.in.th/pic/_0f7eb8a008baad21f.png" alt="Logo"></div><div class="rDeUSzRp" style="color: rgb(255, 255, 255);"><h1>M4PLUS+ ไม่มีขั้นต่ำ ไม่ต้องทำเทิร์น</h1><p>อัตราชนะสูงสุด ด้วยระบบ API มั่นใจได้ไม่มีการล็อกเเน่นอน บริการตลอด 24 ชั่วโมง</p></div></div>
-            
-            </svg></div>
+                        container.appendChild(div);
+                    });
+                }
+            </script>
+            <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-8734bb3 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="8734bb3" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-378380c"
+                        data-id="378380c" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-901da86 elementor-widget elementor-widget-image"
+                                data-id="901da86" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <div class="Jlm-mXPE" style="margin: 0px; padding: 8px 16px;">
+                                        <div data-block="67f62ab792382865bc0509d8" data-block-kind="Image"
+                                            id="block-67f62ab792382865bc0509d8" class="ym4jsoaM">
+                                            <div class="RLQHVzRE aFAYHxTN" style="border-radius: 16px; width: 100%;"><a
+                                                    target="_blank" rel="noopener noreferrer" class="SMTV2Bfe"
+                                                    href="https://lin.ee/w7G8SXM"><img
+                                                        src="https://media.mssg.me/thumbnails/medium/w/67d2b4f0697da1ca385da7f9/websites/67f624573d1b47647708fbb0/d7709c_24f8e58e094548bca4f5a3b700891f7c~mv2_1744186019305.gif"
+                                                        alt="Image"></a></div>
+                                        </div>
+                                    </div>
 
+                                </div>
+                            </div>
+                        </div>
+            </section>
+            <div class="aBzS+Vtx">
+                <div class="n6+2FamY" style="background-color: transparent;"><img
+                        src="https://img2.pic.in.th/pic/_0f7eb8a008baad21f.png" alt="Logo"></div>
+                <div class="rDeUSzRp" style="color: rgb(255, 255, 255);">
+                    <h1>M4PLUS+ ไม่มีขั้นต่ำ ไม่ต้องทำเทิร์น</h1>
+                    <p>อัตราชนะสูงสุด ด้วยระบบ API มั่นใจได้ไม่มีการล็อกเเน่นอน บริการตลอด 24 ชั่วโมง</p>
+                </div>
+            </div>
 
-   
-    </style>
-    <link rel="stylesheet" id="hfe-style-css"
-        href="https://lis168.companyog.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.15"
-        type="text/css" media="all">
-    <link rel="stylesheet" id="elementor-icons-css"
-        href="https://lis168.companyog.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.21.0"
-        type="text/css" media="all">
-    <link rel="stylesheet" id="elementor-frontend-css"
-        href="https://lis168.companyog.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.15.3"
-        type="text/css" media="all">
-    <link rel="stylesheet" id="swiper-css"
-        href="https://lis168.companyog.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6"
-        type="text/css" media="all">
-    <link rel="stylesheet" id="elementor-post-149-css"
-        href="https://lis168.companyog.com/wp-content/uploads/elementor/css/post-149.css?ver=1742216978" type="text/css"
-        media="all">
-    <link rel="stylesheet" id="elementor-pro-css"
-        href="https://lis168.companyog.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.15.0"
-        type="text/css" media="all">
-    <link rel="stylesheet" id="uael-frontend-css"
-        href="https://lis168.companyog.com/wp-content/plugins/ultimate-elementor/assets/min-css/uael-frontend.min.css?ver=1.36.15"
-        type="text/css" media="all">
-    <link rel="stylesheet" id="elementor-global-css"
-        href="https://lis168.companyog.com/wp-content/uploads/elementor/css/global.css?ver=1742216978" type="text/css"
-        media="all">
-    <link rel="stylesheet" id="elementor-post-232-css"
-        href="https://lis168.companyog.com/wp-content/uploads/elementor/css/post-232.css?ver=1748513991" type="text/css"
-        media="all">
-    <link rel="stylesheet" id="hfe-widgets-style-css"
-        href="https://lis168.companyog.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.15"
-        type="text/css" media="all">
-    <link rel="stylesheet" id="elementor-post-274-css"
-        href="https://lis168.companyog.com/wp-content/uploads/elementor/css/post-274.css?ver=1742220277" type="text/css"
-        media="all">
-    <link rel="stylesheet" id="pmw-public-elementor-fix-css"
-        href="https://lis168.companyog.com/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/css/public/elementor-fix.css?ver=1.49.1"
-        type="text/css" media="all">
-    <link rel="stylesheet" id="google-fonts-1-css"
-        href="https://fonts.googleapis.com/css?family=Kanit%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.7.2"
-        type="text/css" media="all">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <script type="text/javascript" src="https://lis168.companyog.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-        id="jquery-core-js"></script>
-    <script type="text/javascript"
-        src="https://lis168.companyog.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js"></script>
-    <script type="text/javascript"
-        src="https://lis168.companyog.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
-        id="wp-hooks-js"></script>
-    <script type="text/javascript" id="wpm-js-extra">
-        /* <![CDATA[ */
-        var wpm = { "ajax_url": "https:\/\/lis168.companyog.com\/wp-admin\/admin-ajax.php", "root": "https:\/\/lis168.companyog.com\/wp-json\/", "nonce_wp_rest": "158666d672", "nonce_ajax": "2f4530fdd2" };
-        /* ]]> */
-    </script>
-   
-
-    <!-- END Pixel Manager for WooCommerce -->
-    <style type="text/css" id="custom-background-css">
-        body.custom-background {
-            background-image: url("https://img2.pic.in.th/pic/LBG-001_5514931-.jpg");
-            background-position: left top;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-    </style>
-    <style type="text/css" id="wp-custom-css">
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-
-        .containinlogin {
-            width: 100%;
-            margin: 0 auto;
-            padding: 0 5px;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: flex-end;
-        }
-
-       
-  
-    </style>
-    
-
-<body
-    class="home page-template-default page page-id-154 custom-background wp-custom-logo ehf-header ehf-footer ehf-template-heng787 ehf-stylesheet-heng787 elementor-default elementor-kit-149 elementor-page elementor-page-154 e--ua-blink e--ua-chrome e--ua-webkit"
-    data-elementor-device-mode="tablet">
-    <div id="page" class="hfeed site">
+            </svg>
+        </div>
 
 
 
+        </style>
+        <link rel="stylesheet" id="hfe-style-css"
+            href="https://lis168.companyog.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.15"
+            type="text/css" media="all">
+        <link rel="stylesheet" id="elementor-icons-css"
+            href="https://lis168.companyog.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.21.0"
+            type="text/css" media="all">
+        <link rel="stylesheet" id="elementor-frontend-css"
+            href="https://lis168.companyog.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.15.3"
+            type="text/css" media="all">
+        <link rel="stylesheet" id="swiper-css"
+            href="https://lis168.companyog.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6"
+            type="text/css" media="all">
+        <link rel="stylesheet" id="elementor-post-149-css"
+            href="https://lis168.companyog.com/wp-content/uploads/elementor/css/post-149.css?ver=1742216978"
+            type="text/css" media="all">
+        <link rel="stylesheet" id="elementor-pro-css"
+            href="https://lis168.companyog.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.15.0"
+            type="text/css" media="all">
+        <link rel="stylesheet" id="uael-frontend-css"
+            href="https://lis168.companyog.com/wp-content/plugins/ultimate-elementor/assets/min-css/uael-frontend.min.css?ver=1.36.15"
+            type="text/css" media="all">
+        <link rel="stylesheet" id="elementor-global-css"
+            href="https://lis168.companyog.com/wp-content/uploads/elementor/css/global.css?ver=1742216978"
+            type="text/css" media="all">
+        <link rel="stylesheet" id="elementor-post-232-css"
+            href="https://lis168.companyog.com/wp-content/uploads/elementor/css/post-232.css?ver=1748513991"
+            type="text/css" media="all">
+        <link rel="stylesheet" id="hfe-widgets-style-css"
+            href="https://lis168.companyog.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.15"
+            type="text/css" media="all">
+        <link rel="stylesheet" id="elementor-post-274-css"
+            href="https://lis168.companyog.com/wp-content/uploads/elementor/css/post-274.css?ver=1742220277"
+            type="text/css" media="all">
+        <link rel="stylesheet" id="pmw-public-elementor-fix-css"
+            href="https://lis168.companyog.com/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/css/public/elementor-fix.css?ver=1.49.1"
+            type="text/css" media="all">
+        <link rel="stylesheet" id="google-fonts-1-css"
+            href="https://fonts.googleapis.com/css?family=Kanit%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.7.2"
+            type="text/css" media="all">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <script type="text/javascript" src="https://lis168.companyog.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+            id="jquery-core-js"></script>
+        <script type="text/javascript"
+            src="https://lis168.companyog.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+            id="jquery-migrate-js"></script>
+        <script type="text/javascript"
+            src="https://lis168.companyog.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
+            id="wp-hooks-js"></script>
+        <script type="text/javascript" id="wpm-js-extra">
+            /* <![CDATA[ */
+            var wpm = { "ajax_url": "https:\/\/lis168.companyog.com\/wp-admin\/admin-ajax.php", "root": "https:\/\/lis168.companyog.com\/wp-json\/", "nonce_wp_rest": "158666d672", "nonce_ajax": "2f4530fdd2" };
+            /* ]]> */
+        </script>
 
+
+        <!-- END Pixel Manager for WooCommerce -->
+        <style type="text/css" id="custom-background-css">
+            body.custom-background {
+                background-image: url("https://img2.pic.in.th/pic/LBG-001_5514931-.jpg");
+                background-position: left top;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+        </style>
+        <style type="text/css" id="wp-custom-css">
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+
+            .containinlogin {
+                width: 100%;
+                margin: 0 auto;
+                padding: 0 5px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+            }
+        </style>
+
+
+        <body
+            class="home page-template-default page page-id-154 custom-background wp-custom-logo ehf-header ehf-footer ehf-template-heng787 ehf-stylesheet-heng787 elementor-default elementor-kit-149 elementor-page elementor-page-154 e--ua-blink e--ua-chrome e--ua-webkit"
+            data-elementor-device-mode="tablet">
+            <div id="page" class="hfeed site">
+
+
+
+
+            </div>
     </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </section>
-    <section
-        class="elementor-section elementor-top-section elementor-element elementor-element-d279d0e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-        data-id="d279d0e" data-element_type="section">
-        <div class="elementor-container elementor-column-gap-default">
-            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d96760d"
-                data-id="d96760d" data-element_type="column">
-                <div class="elementor-widget-wrap elementor-element-populated">
-                    <div class="elementor-element elementor-element-3a7e06e elementor-widget elementor-widget-image"
-                        data-id="3a7e06e" data-element_type="widget" data-widget_type="image.default">
-                        <div class="elementor-widget-container">
-                           
+</div>
+</div>
+</div>
+</section>
+<section
+    class="elementor-section elementor-top-section elementor-element elementor-element-d279d0e elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+    data-id="d279d0e" data-element_type="section">
+    <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d96760d"
+            data-id="d96760d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-3a7e06e elementor-widget elementor-widget-image"
+                    data-id="3a7e06e" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
 
 
 
 
-                            
+
+
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-68c5fa5"
+                                data-id="68c5fa5" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated e-swiper-container">
+                                    <div class="elementor-element elementor-element-211e769 elementor-skin-carousel elementor-arrows-yes elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-media-carousel e-widget-swiper"
+                                        data-id="211e769" data-element_type="widget"
+                                        data-settings="{&quot;effect&quot;:&quot;fade&quot;,&quot;skin&quot;:&quot;carousel&quot;,&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}"
+                                        data-widget_type="media-carousel.default">
+                                        <div class="elementor-widget-container">
+                                            <link rel="stylesheet" class="swiper-slide swiper-slide-duplicate-active"
+                                                data-swiper-slide-index="0"
+                                                style="width: 946px; transition-duration: 0ms; opacity: 1; transform: translate3d(-956px, 0px, 0px); margin-right: 10px;">
+
+                                        </div>
+                                        <div class="swiper-slide" data-swiper-slide-index="1"
+                                            style="width: 946px; transition-duration: 0ms; opacity: 1; transform: translate3d(-1912px, 0px, 0px); margin-right: 10px;">
+                                            <div class="elementor-carousel-image" role="img" aria-label="S__127098888_0"
+                                                style="background-image: url('https://lis168.companyog.com/wp-content/uploads/2022/03/S__127098888_0.jpg')">
+
+
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next"
+                                            data-swiper-slide-index="2"
+                                            style="width: 946px; transition-duration: 0ms; opacity: 1; transform: translate3d(-2868px, 0px, 0px); margin-right: 10px;">
+                                            <div class="elementor-carousel-image" role="img" aria-label="S__127098886_0"
+                                                style="background-image: url('https://lis168.companyog.com/wp-content/uploads/2022/03/S__127098886_0.jpg')">
+
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+
+                                    </div>
+                                    <div class="elementor-swiper-button elementor-swiper-button-prev" role="button"
+                                        tabindex="0" aria-label="Previous slide">
+
+
+
+                                    </div>
+                                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<section
+    class="elementor-section elementor-top-section elementor-element elementor-element-67ef145 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+    data-id="67ef145" data-element_type="section">
+    <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6744cf5"
+            data-id="6744cf5" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-a09efd2 elementor-widget elementor-widget-image"
+                    data-id="a09efd2" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section
+    class="elementor-section elementor-top-section elementor-element elementor-element-fb7da23 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+    data-id="fb7da23" data-element_type="section">
+    <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5404d9e"
+            data-id="5404d9e" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated e-swiper-container">
+                <div class="elementor-element elementor-element-1855031 elementor-skin-coverflow elementor-arrows-yes elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-media-carousel e-widget-swiper"
+                    data-id="1855031" data-element_type="widget"
+                    data-settings="{&quot;skin&quot;:&quot;coverflow&quot;,&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}"
+                    data-widget_type="media-carousel.default">
+                    <div class="elementor-widget-container">
+                        <div class="elementor-swiper">
+                            <div class="elementor-main-swiper swiper-container swiper-container-coverflow swiper-container-3d swiper-container-initialized swiper-container-horizontal"
+                                style="cursor: grab;">
+                                <div class="swiper-wrapper"
+                                    style="transition-duration: 0ms; transform: translate3d(-1434px, 0px, 0px);">
+                                    <div class="swiper-slide swiper-slide-duplicate"
+                                        style="width: 468px; transition-duration: 0ms; transform: translate3d(0px, 0px, -357.479px) rotateX(0deg) rotateY(178.739deg); z-index: -3; margin-right: 10px;"
+                                        data-swiper-slide-index="4">
+
+
+
+
+
+
+
+
+                                    </div>
+                                    <div class="swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;">
+                                    </div>
+                                    <div class="swiper-slide-shadow-right"
+                                        style="opacity: 1.53205; transition-duration: 0ms;"></div>
+
+
+
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+</section>
+<section
+    class="elementor-section elementor-top-section elementor-element elementor-element-edefc91 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+    class="footer-width-fixer">
+    <div data-elementor-type="wp-post" data-elementor-id="274" class="elementor elementor-274"
+        data-elementor-post-type="elementor-hf">
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-44aeb05 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+            data-id="44aeb05" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d28b2cd"
+                    data-id="d28b2cd" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <section
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-cae09c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="cae09c6" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-d161a29"
+                                    data-id="d161a29" data-element_type="column">
+                                    <div class="elementor-widget-wrap">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-349a366 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="349a366" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-80dbbf5"
+                    data-id="80dbbf5" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-f027d05 elementor-widget elementor-widget-html"
+                            data-id="f027d05" data-element_type="widget" data-widget_type="html.default">
+                            <div class="elementor-widget-container">
+                                <div class="snowflakes" aria-hidden="true">
+                                    <div class="snowflake">
+                                        <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
+                                            width="20px" height="20px" alt="">
+                                    </div>
+                                    <div class="snowflake">
+                                        <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
+                                            width="35px" height="35px" alt="">
+                                    </div>
+                                    <div class="snowflake">
+                                        <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
+                                            width="35px" height="35px" alt="">
+                                    </div>
+                                    <div class="snowflake">
+                                        <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
+                                            width="20px" height="20px" alt="">
+                                    </div>
+                                    <div class="snowflake">
+                                        <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
+                                            width="35px" height="35px" alt="">
+                                    </div>
+                                    <div class="snowflake">
+                                        <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
+                                            width="35px" height="35px" alt="">
+                                    </div>
+                                    <div class="snowflake">
+                                        <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
+                                            width="20px" height="20px" alt="">
+                                    </div>
+                                    <div class="snowflake">
+                                        <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
+                                            width="35px" height="35px" alt="">
+                                    </div>
+                                    <div class="snowflake">
+                                        <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
+                                            width="35px" height="35px" alt="">
+                                    </div>
+                                    <div class="snowflake">
+                                        <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
+                                            width="20px" height="20px" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            data-ep-wrapper-link="{&quot;url&quot;:&quot;https:\/\/line.me\/R\/ti\/p\/@366rrhzr?oat_content=url#~&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;}"
+            style="cursor: pointer"
+            class="bdt-element-link elementor-section elementor-top-section elementor-element elementor-element-40ae508 elementor-section-full_width elementor-hidden-desktop elementor-section-height-default elementor-section-height-default"
+            data-id="40ae508" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-no">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4bf921f"
+                    data-id="4bf921f" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <section
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-cda4ab0 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="cda4ab0" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-68c5fa5"
-                                    data-id="68c5fa5" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated e-swiper-container">
-                                        <div class="elementor-element elementor-element-211e769 elementor-skin-carousel elementor-arrows-yes elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-media-carousel e-widget-swiper"
-                                            data-id="211e769" data-element_type="widget"
-                                            data-settings="{&quot;effect&quot;:&quot;fade&quot;,&quot;skin&quot;:&quot;carousel&quot;,&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}"
-                                            data-widget_type="media-carousel.default">
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a0d320f"
+                                    data-id="a0d320f" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-b1c4fdf elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
+                                            data-id="b1c4fdf" data-element_type="widget"
+                                            data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <link rel="stylesheet"
-                                                  
-                                                   
-                                                            
-                                                    
-                                                            class="swiper-slide swiper-slide-duplicate-active"
-                                                                data-swiper-slide-index="0"
-                                                                style="width: 946px; transition-duration: 0ms; opacity: 1; transform: translate3d(-956px, 0px, 0px); margin-right: 10px;">
-                                                               
-                                                            </div>
-                                                            <div class="swiper-slide" data-swiper-slide-index="1"
-                                                                style="width: 946px; transition-duration: 0ms; opacity: 1; transform: translate3d(-1912px, 0px, 0px); margin-right: 10px;">
-                                                                <div class="elementor-carousel-image" role="img"
-                                                                    aria-label="S__127098888_0"
-                                                                    style="background-image: url('https://lis168.companyog.com/wp-content/uploads/2022/03/S__127098888_0.jpg')">
-
-
-                                                                </div>
-                                                            </div>
-                                                            <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next"
-                                                                data-swiper-slide-index="2"
-                                                                style="width: 946px; transition-duration: 0ms; opacity: 1; transform: translate3d(-2868px, 0px, 0px); margin-right: 10px;">
-                                                                <div class="elementor-carousel-image" role="img"
-                                                                    aria-label="S__127098886_0"
-                                                                    style="background-image: url('https://lis168.companyog.com/wp-content/uploads/2022/03/S__127098886_0.jpg')">
-
-
-                                                               
-
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div
-                                                            class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
-                                                            
-                                                        </div>
-                                                        <div class="elementor-swiper-button elementor-swiper-button-prev"
-                                                            role="button" tabindex="0" aria-label="Previous slide">
-                                                           
-                                                              
-                                                     
-                                                        </div>
-                                                        <span class="swiper-notification" aria-live="assertive"
-                                                            aria-atomic="true"></span>
-                                                    </div>
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                        href="https://lin.ee/w7G8SXM">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">สมัครสมาชิก</span>
+                                                        </span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-    </section>
-    <section
-        class="elementor-section elementor-top-section elementor-element elementor-element-67ef145 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-        data-id="67ef145" data-element_type="section">
-        <div class="elementor-container elementor-column-gap-default">
-            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6744cf5"
-                data-id="6744cf5" data-element_type="column">
-                <div class="elementor-widget-wrap elementor-element-populated">
-                    <div class="elementor-element elementor-element-a09efd2 elementor-widget elementor-widget-image"
-                        data-id="a09efd2" data-element_type="widget" data-widget_type="image.default">
-                        <div class="elementor-widget-container">
-                         
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section
-        class="elementor-section elementor-top-section elementor-element elementor-element-fb7da23 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-        data-id="fb7da23" data-element_type="section">
-        <div class="elementor-container elementor-column-gap-default">
-            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5404d9e"
-                data-id="5404d9e" data-element_type="column">
-                <div class="elementor-widget-wrap elementor-element-populated e-swiper-container">
-                    <div class="elementor-element elementor-element-1855031 elementor-skin-coverflow elementor-arrows-yes elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-media-carousel e-widget-swiper"
-                        data-id="1855031" data-element_type="widget"
-                        data-settings="{&quot;skin&quot;:&quot;coverflow&quot;,&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}"
-                        data-widget_type="media-carousel.default">
-                        <div class="elementor-widget-container">
-                            <div class="elementor-swiper">
-                                <div class="elementor-main-swiper swiper-container swiper-container-coverflow swiper-container-3d swiper-container-initialized swiper-container-horizontal"
-                                    style="cursor: grab;">
-                                    <div class="swiper-wrapper"
-                                        style="transition-duration: 0ms; transform: translate3d(-1434px, 0px, 0px);">
-                                        <div class="swiper-slide swiper-slide-duplicate"
-                                            style="width: 468px; transition-duration: 0ms; transform: translate3d(0px, 0px, -357.479px) rotateX(0deg) rotateY(178.739deg); z-index: -3; margin-right: 10px;"
-                                            data-swiper-slide-index="4">
-                                            
-                                            
-
-                                           
-                                         
-                                       
-
-                                        
-                                            </div>
-                                            <div class="swiper-slide-shadow-left"
-                                                style="opacity: 0; transition-duration: 0ms;"></div>
-                                            <div class="swiper-slide-shadow-right"
-                                                style="opacity: 1.53205; transition-duration: 0ms;"></div>
-                                      
-
-                                        
-
-                                         
-                                        
-                                        
-                               
-                                   
-                </div>
-            </div>
-        </div>
-    </section>
-    <section
-        class="elementor-section elementor-top-section elementor-element elementor-element-edefc91 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-      
-         
-      
-
-
-      
-                  
-          
-
-
-
-
-
-                        
-
-
-
-
-
-
-
-
-
-
-
-
-
-         class="footer-width-fixer">
-            <div data-elementor-type="wp-post" data-elementor-id="274" class="elementor elementor-274"
-                data-elementor-post-type="elementor-hf">
-                <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-44aeb05 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
-                    data-id="44aeb05" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d28b2cd"
-                            data-id="d28b2cd" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <section
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-cae09c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="cae09c6" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-no">
-                                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-d161a29"
-                                            data-id="d161a29" data-element_type="column">
-                                            <div class="elementor-widget-wrap">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-349a366 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                    data-id="349a366" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-80dbbf5"
-                            data-id="80dbbf5" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-f027d05 elementor-widget elementor-widget-html"
-                                    data-id="f027d05" data-element_type="widget" data-widget_type="html.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="snowflakes" aria-hidden="true">
-                                            <div class="snowflake">
-                                                <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
-                                                    width="20px" height="20px" alt="">
-                                            </div>
-                                            <div class="snowflake">
-                                                <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
-                                                    width="35px" height="35px" alt="">
-                                            </div>
-                                            <div class="snowflake">
-                                                <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
-                                                    width="35px" height="35px" alt="">
-                                            </div>
-                                            <div class="snowflake">
-                                                <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
-                                                    width="20px" height="20px" alt="">
-                                            </div>
-                                            <div class="snowflake">
-                                                <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
-                                                    width="35px" height="35px" alt="">
-                                            </div>
-                                            <div class="snowflake">
-                                                <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
-                                                    width="35px" height="35px" alt="">
-                                            </div>
-                                            <div class="snowflake">
-                                                <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
-                                                    width="20px" height="20px" alt="">
-                                            </div>
-                                            <div class="snowflake">
-                                                <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
-                                                    width="35px" height="35px" alt="">
-                                            </div>
-                                            <div class="snowflake">
-                                                <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
-                                                    width="35px" height="35px" alt="">
-                                            </div>
-                                            <div class="snowflake">
-                                                <img src="https://lis168.companyog.com/wp-content/uploads/2023/09/coin.png"
-                                                    width="20px" height="20px" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section
-                    data-ep-wrapper-link="{&quot;url&quot;:&quot;https:\/\/line.me\/R\/ti\/p\/@366rrhzr?oat_content=url#~&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;}"
-                    style="cursor: pointer"
-                    class="bdt-element-link elementor-section elementor-top-section elementor-element elementor-element-40ae508 elementor-section-full_width elementor-hidden-desktop elementor-section-height-default elementor-section-height-default"
-                    data-id="40ae508" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-no">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4bf921f"
-                            data-id="4bf921f" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <section
-                                    class="elementor-section elementor-inner-section elementor-element elementor-element-cda4ab0 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                    data-id="cda4ab0" data-element_type="section">
-                                    <div class="elementor-container elementor-column-gap-default">
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a0d320f"
-                                            data-id="a0d320f" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-b1c4fdf elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
-                                                    data-id="b1c4fdf" data-element_type="widget"
-                                                    data-widget_type="button.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="elementor-button-wrapper">
-                                                            <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                href="https://lin.ee/w7G8SXM">
-                                                                <span class="elementor-button-content-wrapper">
-                                                                    <span
-                                                                        class="elementor-button-text">สมัครสมาชิก</span>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3a4b98b"
-                                            data-id="3a4b98b" data-element_type="column">
-                                            <div class="elementor-widget-wrap elementor-element-populated">
-                                                <div class="elementor-element elementor-element-9854c87 elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
-                                                    data-id="9854c87" data-element_type="widget"
-                                                    data-widget_type="button.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="elementor-button-wrapper">
-                                                            <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                href="https://lin.ee/w7G8SXM">
-                                                                <span class="elementor-button-content-wrapper">
-                                                                    <span
-                                                                        class="elementor-button-text">ติดต่อแอดมิน</span>
-                                                                </span>
-                                                                
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3a4b98b"
+                                    data-id="3a4b98b" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-9854c87 elementor-widget-mobile__width-initial elementor-widget elementor-widget-button"
+                                            data-id="9854c87" data-element_type="widget"
+                                            data-widget_type="button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                        href="https://lin.ee/w7G8SXM">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">ติดต่อแอดมิน</span>
+                                                        </span>
